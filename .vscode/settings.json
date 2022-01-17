@@ -1,0 +1,26 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    // #每次保存的时候自动格式化 
+    "editor.formatOnSave": true,
+    // #每次保存的时候将代码按eslint格式进行修复
+    "editor.codeActionsOnSave": {
+        "source.fixAlltrue.eslint": true,
+        "source.fixAll.eslint": true
+    },
+    //  #让函数(名)和后面的括号之间加个空格
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".ts",
+            ".tsx"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+    ],
+    "editor.fontSize": 16
+}
